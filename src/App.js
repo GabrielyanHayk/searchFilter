@@ -2,6 +2,8 @@ import './App.css';
 import { useState } from 'react';
 import JSONDATA from './MOCK_DATA.json';
 
+// -----------
+
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
   return (
